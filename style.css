@@ -66,7 +66,7 @@ h1 {
     border-radius: 5px;
 }
 
-.loginImgIcons:hover{
+.loginImgIcons:hover {
     box-shadow: 3px 2px 4px black;
 }
 
@@ -102,9 +102,15 @@ input {
     font-weight: 300;
     font-size: 15pt;
 }
+
 input:focus {
     outline: none;
     box-shadow: 0px 0px 15px #41006C;
+}
+
+input::placeholder {
+    color: white;
+    padding-left: 5px;
 }
 
 #fgtPassLink {
@@ -123,7 +129,8 @@ input:focus {
     font-weight: 400;
     font-size: 14pt;
 }
-#login{
+
+#login {
     margin-top: 30px;
     width: 150px;
     height: 55px;
@@ -131,27 +138,29 @@ input:focus {
     border-radius: 10px;
     background-color: #41006C;
     color: white;
-    font-family: 'Akshar', sans-serif; ;
+    font-family: 'Akshar', sans-serif;
+    ;
     font-weight: 700;
     font-size: 18pt;
 }
 
-#login:hover{
+#login:hover {
     box-shadow: 3px 2px 4px black;
 }
+
 footer {
     margin-top: 50px;
 }
 
-#logoCopy{
+#logoCopy {
     display: block;
     margin: 0 auto;
 }
 
 
-@keyframes drop{
-to{
-    opacity: 1;
-    transform: translateY(0px);
-}
+@keyframes drop {
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
