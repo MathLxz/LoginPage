@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;700&family=Alfa+Slab+One&family=Balsamiq+Sans&display=swap');
+
+/* 
+font-family: 'Akshar', sans-serif;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Balsamiq Sans', cursive;
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 100%;
+    background-color: #8430C8;
+}
+
+#mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#loginBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 650px;
+    height: 550px;
+    background-color: #FFFFFF;
+    border: 5px solid #41006C;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+h1 {
+    padding-top: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+#loginWith {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+#loginIcons {
+    display: flex;
+    gap: 35px;
+    padding-top: 15px;
+
+}
+
+.loginImgIcons {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(65, 0, 108, 0.65);
+    border-radius: 5px;
+}
+
+.loginImgIcons:hover{
+    box-shadow: 3px 2px 4px black;
+}
+
+#loginOptsMain {
+    display: flex;
+}
+
+
+#lableEmail {
+    margin-right: 320px;
+    margin-top: 15px;
+    font-family: 'Akshar', sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+}
+
+#lablePass {
+    margin-right: 302px;
+    margin-top: 15px;
+    font-family: 'Akshar', sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+}
+
+input {
+    background: rgba(77, 71, 71, 0.58);
+    border: none;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Akshar', sans-serif;
+    font-weight: 300;
+    font-size: 15pt;
+}
+
+#fgtPassLink {
+    text-decoration: none;
+    color: black;
+}
+
+#fgtPassLink:hover {
+    color: #41006C;
+}
+
+#fgtPass {
+    margin-right: 200px;
+    margin-top: 15px;
+    font-family: 'Akshar', sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+}
+#login{
+    margin-top: 30px;
+    width: 150px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background-color: #41006C;
+    color: white;
+    font-family: 'Akshar', sans-serif; ;
+    font-weight: 700;
+    font-size: 18pt;
+}
+
+#login:hover{
+    box-shadow: 3px 2px 4px black;
+}
+footer {
+    margin-top: 50px;
+}
+
+#logoCopy{
+    display: block;
+    margin: 0 auto;
+}
