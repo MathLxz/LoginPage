@@ -105,7 +105,7 @@ input {
 
 input:focus {
     outline: none;
-    box-shadow: 0px 0px 15px #41006C;
+    box-shadow: 0px 0px 6px #41006C;
 }
 
 input::placeholder {
