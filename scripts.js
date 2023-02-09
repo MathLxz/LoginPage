@@ -9,6 +9,6 @@ function logar(){
     if(email == 'admin' && password == 'admin'){
         alert('Logado!')
     } else{
-        alert('Preencha os campos para fazer login')
+        alert('Usuário ou senha inválidos!')
     }
 }
